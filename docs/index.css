@@ -1,0 +1,50 @@
+body { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+    color: #222;
+    line-height:100%;
+}
+
+#itinerary, td {
+    padding: 6px;
+    border: 0.5px solid black;
+}
+
+#itineray, th {
+    padding: 6px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    color: #FFFFFF;
+    background-color: #222;
+}
+
+#itinerary > tfoot > tr > td {
+    padding: 6px;
+}
+
+#date {
+    width: 6rem;
+}
+
+#time {
+    width: 8rem;
+}
+
+table, caption {
+    text-align: left;
+    padding-bottom: 6px;
+}
+
+#itinerary {
+    padding: 0;
+    border-spacing: 0;
+    border: 0.5px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+#criteria, ul, li {
+    padding-bottom: 6px;
+}
